@@ -38,7 +38,7 @@
 /* Fonts End */
 
 body {
-    background-image: url('../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg');
+    background-image: url('/Puppy-Restaurant/assets/RestaurantMockupFiles/assets/bgtexture.jpg');
 }
 
 .navbar {
