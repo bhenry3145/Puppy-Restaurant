@@ -18,10 +18,11 @@
     src: url(/Fonts/Montauk-Regular.otf);
 }
 
-/* Fonts Start */
-.mont-bold{
-    font-family: "Montauk Bold", sans-serif;
+.font-bold {
+    font-family: 'Montauk Bold', 'sans-serif';
 }
+
+/* Fonts Start */
 
 .mont-ital{
     font-family: "Montauk Italic", sans-serif;
@@ -44,6 +45,12 @@ body {
     margin: 1.5% 4.25% 0;
 }
 
+.muzzles-logo {
+    width: auto;
+    height: auto;
+    padding: 1rem 8rem 4rem 8rem;
+}
+
 .flex-between {
     display: flex;
     justify-content: space-between;
@@ -51,10 +58,14 @@ body {
 
 .menu-options-space {
     padding-right: 3rem;
+    padding-top: 2rem;
 }
 
 .menu-options-text{
-    font-family: 'Montauk Regular';
     font-size: 20px;
     color: #5F002B;
+}
+
+.menu-padding {
+    padding-right: 8rem;
 }
