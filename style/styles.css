@@ -56,6 +56,11 @@ body {
     justify-content: space-between;
 }
 
+.flex-even {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .menu-options-space {
     padding-right: 3rem;
     padding-top: 2rem;
@@ -68,4 +73,12 @@ body {
 
 .menu-padding {
     padding-right: 8rem;
+}
+
+.home-hero-image {
+    background-image: url('/Puppy-Restaurant/assets/RestaurantMockupFiles/assets/homeHero.jpg');
+    height: 37.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 6rem;
 }
