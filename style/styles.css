@@ -1,3 +1,16 @@
 body {
     background-image: url('../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg');
 }
+
+.navbar {
+    margin: 1.5% 4.25% 0;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-options-space {
+    padding-right: 3rem;
+}
