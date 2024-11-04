@@ -1,14 +1,14 @@
-// Your name 
+Your name 
 
-// Date Revised: This is the last day you saved. 
+Date Revised: This is the last day you saved. 
 
-// Puppy-Restaurant
+Puppy-Restaurant
 
-// Brief Description of what you did. 
+Brief Description of what you did. 
 
-// You can add multiple dates with description.
+You can add multiple dates with description.
 
-// Person who Peer Reviewed your assignment
+Person who Peer Reviewed your assignment
 
 FlowChart - Mini Challenge, all Challenges and Projects ( Not needed unless specified )
 Figmas will now replace flow charts. 
