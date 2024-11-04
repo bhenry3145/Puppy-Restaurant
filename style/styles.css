@@ -1,20 +1,20 @@
 @font-face {
-    font-family: Montauk Bold;
+    font-family: 'Montauk Bold';
     src: url(/Fonts/Montauk-Bold.otf);
 }
 
 @font-face {
-    font-family: Montauk Italic;
+    font-family: 'Montauk Italic';
     src: url(/Fonts/Montauk-Italic.otf);
 }
 
 @font-face {
-    font-family: Montauk Light;
+    font-family: 'Montauk Light';
     src: url(/Fonts/Montauk-Light.otf);
 }
 
 @font-face {
-    font-family: Montauk Regular;
+    font-family: 'Montauk Regular';
     src: url(/Fonts/Montauk-Regular.otf);
 }
 
@@ -33,4 +33,10 @@ body {
 
 .menu-options-space {
     padding-right: 3rem;
+}
+
+.menu-options-text{
+    font-family: 'Montauk Regular';
+    font-size: 20px;
+    color: #5F002B;
 }
