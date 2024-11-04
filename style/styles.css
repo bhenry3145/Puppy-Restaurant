@@ -22,6 +22,21 @@
     font-family: 'Montauk Bold', 'sans-serif';
 }
 
+/* Fonts Start */
+
+.mont-ital{
+    font-family: "Montauk Italic", sans-serif;
+}
+
+.mont-light{
+    font-family: "Montauk Light", sans-serif;
+}
+
+.mont-reg{
+    font-family: "Montauk Regular", sans-serif;
+}
+/* Fonts End */
+
 body {
     background-image: url('../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg');
 }
