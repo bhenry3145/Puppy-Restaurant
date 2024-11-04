@@ -31,21 +31,21 @@
     font-family: 'Montauk Bold', 'sans-serif';
 }
 
-.mont-ital{
+.font-ital{
     font-family: "Montauk Italic", sans-serif;
 }
 
-.mont-light{
+.font-light{
     font-family: "Montauk Light", sans-serif;
 }
 
-.mont-reg{
+.font-reg{
     font-family: "Montauk Regular", sans-serif;
 }
 /* Fonts End */
 
 body {
-    background-image: url('../assets/RestaurantMockupFiles/RestaurantMockupFiles/assets/bgtexture.jpg');
+    background-image: url(../assets/RestaurantMockupFiles/assets/bgtexture.jpg);
 }
 
 .navbar {
@@ -68,6 +68,11 @@ body {
     justify-content: space-between;
 }
 
+.flex-even {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .menu-options-space {
     padding-right: 3rem;
     padding-top: 2rem;
@@ -85,8 +90,17 @@ body {
 /* Catering Page Start*/
 .under-nav {
     background-color: #FFFFFF;
-    
+    margin: 0 35px 86px 35px;
 }
 
 
 /* Catering Page End */
+
+
+.home-hero-image {
+    background-image: url('/Puppy-Restaurant/assets/RestaurantMockupFiles/assets/homeHero.jpg');
+    height: 37.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 6rem;
+}
