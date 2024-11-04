@@ -18,11 +18,11 @@
     src: url(/Fonts/Montauk-Regular.otf);
 }
 
+
+/* Fonts Start */
 .font-bold {
     font-family: 'Montauk Bold', 'sans-serif';
 }
-
-/* Fonts Start */
 
 .mont-ital{
     font-family: "Montauk Italic", sans-serif;
