@@ -18,6 +18,13 @@
     src: url(/Fonts/Montauk-Regular.otf);
 }
 
+/* Text Sizes Start */
+.text-50{
+    font-size: 50px;
+    color: #5F002B;
+}
+
+/* Text Sizes End */
 
 /* Fonts Start */
 .font-bold {
@@ -38,7 +45,7 @@
 /* Fonts End */
 
 body {
-    background-image: url('/Puppy-Restaurant/assets/RestaurantMockupFiles/assets/bgtexture.jpg');
+    background-image: url(../assets/RestaurantMockupFiles/assets/bgtexture.jpg);
 }
 /* Home - Start */
 .navbar {
@@ -49,6 +56,11 @@ body {
     width: auto;
     height: auto;
     padding: 1rem 8rem 4rem 8rem;
+}
+
+.flex-even{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .flex-between {
@@ -74,6 +86,16 @@ body {
 .menu-padding {
     padding-right: 8rem;
 }
+
+/* Catering Page Start*/
+.under-nav {
+    background-color: #FFFFFF;
+    margin: 0 35px 86px 35px;
+}
+
+
+/* Catering Page End */
+
 
 .home-hero-image {
     background-image: url('/Puppy-Restaurant/assets/RestaurantMockupFiles/assets/homeHero.jpg');
