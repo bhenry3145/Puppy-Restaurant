@@ -40,7 +40,7 @@
 body {
     background-image: url('/Puppy-Restaurant/assets/RestaurantMockupFiles/assets/bgtexture.jpg');
 }
-
+/* Home - Start */
 .navbar {
     margin: 1.5% 4.25% 0;
 }
@@ -66,7 +66,7 @@ body {
     padding-top: 2rem;
 }
 
-.menu-options-text{
+.sm-text{
     font-size: 20px;
     color: #5F002B;
 }
@@ -82,3 +82,38 @@ body {
     background-position: center;
     margin-bottom: 6rem;
 }
+
+.white-bg {
+    background-color: white;
+}
+
+.home-padding {
+    padding: 2rem 6rem 2rem 6rem;
+}
+
+.fill-photo {
+    width: 100%;
+}
+
+.no-padding {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Home - End */
+
+/* Footer - Start */
+
+.company-logo {
+    height: 2rem;
+}
+
+.footer-left-padding {
+    padding-left: 6rem;
+}
+
+.footer-right-padding {
+    padding-right: 6rem;
+}
+
+/* Footer - End */
