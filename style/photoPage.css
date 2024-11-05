@@ -63,7 +63,10 @@ body {
     justify-content: space-evenly;
 }
 
+
+
 .flex-between {
+    
     display: flex;
     justify-content: space-between;
 }
@@ -79,6 +82,7 @@ body {
 }
 
 .menu-options-text{
+    
     font-size: 12px;
     color: #5F002B;
 }
@@ -183,11 +187,10 @@ body {
 }
 
 
-.sm-text{
+.sm-text{ 
     font-size: 20px;
     color: #5F002B;
-    font-family: 'Montauk Light';
-}
+    font-family: "Montauk Regular"}
 /* photos page end */
 
 /* footer start */
