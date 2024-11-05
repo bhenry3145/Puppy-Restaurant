@@ -87,15 +87,6 @@ body {
     padding-right: 8rem;
 }
 
-/* Catering Page Start*/
-.under-nav {
-    background-color: #FFFFFF;
-    margin: 0 35px 86px 35px;
-}
-
-
-/* Catering Page End */
-
 
 .home-hero-image {
     background-image: url('/Puppy-Restaurant/assets/RestaurantMockupFiles/assets/homeHero.jpg');
@@ -192,3 +183,19 @@ body {
     }
 }
 /* photos page end */
+
+/* footer start */
+
+.company-logo {
+    height: 2rem;
+}
+
+.footer-left-padding {
+    padding-left: 6rem;
+}
+
+.footer-right-padding {
+    padding-right: 6rem;
+}
+
+/* footer end */
