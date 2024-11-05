@@ -212,12 +212,12 @@ body {
     height: 2rem;
 }
 
-.footer-left-padding {
-    padding-left: 6rem;
+.footer-left-margin {
+    margin-left: 6rem;
 }
 
-.footer-right-padding {
-    padding-right: 6rem;
+.footer-right-margin {
+    margin-right: 6rem;
 }
 
 /* Footer - End */
