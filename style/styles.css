@@ -18,6 +18,12 @@
     src: url(/Fonts/Montauk-Regular.otf);
 }
 
+@font-face{
+    font-family: 'Fugaz One';
+    src: url(/Fonts/FugazOne-Regular.ttf);
+}
+  
+
 /* Text Sizes Start */
 .text-50{
     font-size: 50px;
@@ -109,8 +115,9 @@ body {
 
 /* Catering Page Start*/
 .under-nav {
+    font-family: 'Fugaz One';
     background-color: #FFFFFF;
-    margin: 0 0px 0 140px;
+    margin: 0 0px 0 25px;
     width: 1640px;
 }
 
@@ -132,6 +139,13 @@ body {
     padding-right: 41px;
     padding-bottom: 28px;
     
+}
+
+.container2 {
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 50px;
 }
 
 .gap{
@@ -325,11 +339,11 @@ body {
 }
 
 .footer-left-padding {
-    padding-left: 6rem;
+    padding-left: 8.6rem;
 }
 
 .footer-right-padding {
-    padding-right: 6rem;
+    padding-right: 8.6rem;
 }
 
 /* footer end */
