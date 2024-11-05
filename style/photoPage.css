@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'Montauk Bold';
+    src: url(/Fonts/Montauk-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Montauk Italic';
+    src: url(/Fonts/Montauk-Italic.otf);
+}
+
+@font-face {
+    font-family: 'Montauk Light';
+    src: url(/Fonts/Montauk-Light.otf);
+}
+
+@font-face {
+    font-family: 'Montauk Regular';
+    src: url(/Fonts/Montauk-Regular.otf);
+}
+
+/* Text Sizes Start */
+.text-50{
+    font-size: 50px;
+    color: #5F002B;
+}
+
+/* Text Sizes End */
+
+/* Fonts Start */
+.font-bold {
+    font-family: 'Montauk Bold', 'sans-serif';
+}
+
+.font-ital{
+    font-family: "Montauk Italic", sans-serif;
+}
+
+.font-light{
+    font-family: "Montauk Light", sans-serif;
+}
+
+.font-reg{
+    font-family: "Montauk Regular", sans-serif;
+}
+/* Fonts End */
+
+body {
+    background-image: url(../assets/RestaurantMockupFiles/assets/bgtexture.jpg);
+}
+
+.navbar {
+    margin: 1.5% 4.25% 0;
+}
+
+.muzzles-logo {
+    width: auto;
+    height: auto;
+    padding: 1rem 8rem 4rem 8rem;
+}
+
+.flex-even{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-even {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-options-space {
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+
+.menu-options-text{
+    font-size: 20px;
+    color: #5F002B;
+}
+
+.menu-padding {
+    padding-right: 8rem;
+}
+
+/* Catering Page Start*/
+.under-nav {
+    background-color: #FFFFFF;
+    margin: 0 35px 86px 35px;
+}
+
+
+/* Catering Page End */
+
+
+.home-hero-image {
+    background-image: url('/Puppy-Restaurant/assets/RestaurantMockupFiles/assets/homeHero.jpg');
+    height: 37.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 6rem;
+}
+
+
+/* photos page start */
+
+
+
+
+
+
+.font-bold {
+    font-weight: bold;  
+}
+
+/* Photos Section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.photos-heading {
+    font-family: 'Fugaz One', sans-serif;
+    color: #5F002B;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 40px;
+
+}
+
+
+
+.photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border: #FFFFFF 6px solid;
+}
+
+.photo-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .menu-options-space {
+        margin: 0 10px;
+    }
+    
+    .menu-options-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .flex-between {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .menu-padding {
+        padding-right: 0;
+        margin-top: 20px;
+    }
+}
+/* photos page end */
