@@ -42,6 +42,11 @@
 .font-reg{
     font-family: "Montauk Regular", sans-serif;
 }
+
+.font-fugaz {
+    font-family: 'Fugaz One';
+    color: #5F002B;
+}
 /* Fonts End */
 
 body {
@@ -63,22 +68,28 @@ body {
     justify-content: space-evenly;
 }
 
+
+
 .flex-between {
+    
     display: flex;
     justify-content: space-between;
 }
 
 .flex-even {
+    
     display: flex;
     justify-content: space-evenly;
 }
 
 .menu-options-space {
+   
     padding-right: 3rem;
     padding-top: 2rem;
 }
 
 .menu-options-text{
+    
     font-size: 12px;
     color: #5F002B;
 }
@@ -183,11 +194,10 @@ body {
 }
 
 
-.sm-text{
-    font-size: 16px;
+.sm-text{ 
+    font-size: 20px;
     color: #5F002B;
-    font-family: 'Fugaz One';
-}
+   }
 /* photos page end */
 
 /* footer start */
