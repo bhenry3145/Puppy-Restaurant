@@ -125,8 +125,9 @@ body {
 }
 
 .photos-heading {
-    font-family: 'Fugaz One', sans-serif;
+    font-family: 'Montauk Italic';
     color: #5F002B;
+    background-color: #FFFFFF;
     text-align: center;
     font-size: 50px;
     margin-bottom: 40px;
