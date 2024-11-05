@@ -169,4 +169,21 @@ body {
     height: 42rem;
 }
 
+.text-md {
+    font-size: 30px;
+    color: #5F002B;
+}
+
+.padding-right {
+    padding-right: 2rem;
+}
+
+.our-team-margin {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
 /* About - End */
