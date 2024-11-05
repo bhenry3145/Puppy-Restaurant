@@ -185,3 +185,142 @@ body {
 }
 
 /* Footer - End */
+
+/* About - Start */
+
+.about-main-image {
+    height: 42rem;
+}
+
+.text-md {
+    font-size: 30px;
+    color: #5F002B;
+}
+
+.padding-right {
+    padding-right: 1rem;
+}
+
+.our-team-margin {
+    margin-left: 6rem;
+    margin-right: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.no-radius {
+    border-radius: 0%;
+}
+
+
+/* About - End */
+
+
+/* photo section start*/
+
+
+.font-bold {
+    font-weight: bold;  
+}
+
+/* Photos Section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.photos-heading {
+    font-family: 'Fugaz One';
+    color: #5F002B;
+    background-color: #FFFFFF;
+    text-align: center;
+    font-size: 43xpx;
+    margin-bottom: 40px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 40px;
+
+}
+
+
+
+.photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border: #FFFFFF 6px solid;
+}
+/* on hover  */
+.photo-item img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .menu-options-space {
+        margin: 0 10px;
+    }
+    
+    .menu-options-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .photo-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .flex-between {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .menu-padding {
+        padding-right: 0;
+        margin-top: 20px;
+    }
+}
+.no-decoration {
+    text-decoration: none;
+}
+
+
+.sm-text{ 
+    font-size: 20px;
+    color: #5F002B;
+   }
+/* photos page end */
+
+/* footer start */
+
+.company-logo {
+    height: 2rem;
+}
+
+.footer-left-padding {
+    padding-left: 6rem;
+}
+
+.footer-right-padding {
+    padding-right: 6rem;
+}
+
+/* footer end */
