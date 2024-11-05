@@ -42,6 +42,10 @@
 .font-reg{
     font-family: "Montauk Regular", sans-serif;
 }
+
+.font-fugaz {
+    font-family: 'Fugaz One';
+}
 /* Fonts End */
 
 body {
