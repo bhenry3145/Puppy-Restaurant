@@ -109,6 +109,23 @@ body {
     padding-right: 8rem;
 }
 
+.our-menu-padding {
+    padding-right: 8rem;
+    padding-left: 8rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.menu-2-padding {
+    padding-right: 8rem;
+    padding-left: 1rem;
+}
+
+.menu-3-padding {
+    padding-left: 8rem;
+    padding-right: 1rem;
+}
+
 .no-decoration {
     text-decoration: none;
 }
@@ -260,6 +277,8 @@ body {
     text-align: center;
     font-size: 43xpx;
     margin-bottom: 40px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 .photo-grid {
