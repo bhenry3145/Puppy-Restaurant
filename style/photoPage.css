@@ -87,15 +87,6 @@ body {
     padding-right: 8rem;
 }
 
-/* Catering Page Start*/
-.under-nav {
-    background-color: #FFFFFF;
-    margin: 0 35px 86px 35px;
-}
-
-
-/* Catering Page End */
-
 
 .home-hero-image {
     background-image: url('/Puppy-Restaurant/assets/RestaurantMockupFiles/assets/homeHero.jpg');
@@ -125,11 +116,11 @@ body {
 }
 
 .photos-heading {
-    font-family: 'Montauk Italic';
+    font-family: 'Fugaz One';
     color: #5F002B;
     background-color: #FFFFFF;
     text-align: center;
-    font-size: 50px;
+    font-size: 46px;
     margin-bottom: 40px;
 }
 
@@ -150,10 +141,11 @@ body {
     transition: transform 0.3s ease;
     border: #FFFFFF 6px solid;
 }
-
+/* on hover  */
 .photo-item img:hover {
     transform: scale(1.05);
 }
+
 
 /* Responsive Design */
 @media (max-width: 992px) {
@@ -192,3 +184,19 @@ body {
     }
 }
 /* photos page end */
+
+/* footer start */
+
+.company-logo {
+    height: 2rem;
+}
+
+.footer-left-padding {
+    padding-left: 6rem;
+}
+
+.footer-right-padding {
+    padding-right: 6rem;
+}
+
+/* footer end */
