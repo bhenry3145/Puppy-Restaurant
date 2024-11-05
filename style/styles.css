@@ -87,6 +87,10 @@ body {
     padding-right: 8rem;
 }
 
+.no-decoration {
+    text-decoration: none;
+}
+
 /* Catering Page Start*/
 .under-nav {
     background-color: #FFFFFF;
