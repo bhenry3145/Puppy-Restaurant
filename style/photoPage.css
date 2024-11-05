@@ -42,6 +42,11 @@
 .font-reg{
     font-family: "Montauk Regular", sans-serif;
 }
+
+.font-fugaz {
+    font-family: 'Fugaz One';
+    color: #5F002B;
+}
 /* Fonts End */
 
 body {
@@ -72,11 +77,13 @@ body {
 }
 
 .flex-even {
+    
     display: flex;
     justify-content: space-evenly;
 }
 
 .menu-options-space {
+   
     padding-right: 3rem;
     padding-top: 2rem;
 }
@@ -190,7 +197,7 @@ body {
 .sm-text{ 
     font-size: 20px;
     color: #5F002B;
-    font-family: "Montauk Regular"}
+   }
 /* photos page end */
 
 /* footer start */
