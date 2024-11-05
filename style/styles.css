@@ -66,6 +66,7 @@ body {
 .flex-even{
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .flex-between {
@@ -76,6 +77,11 @@ body {
 .flex-even {
     display: flex;
     justify-content: space-evenly;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
 }
 
 .menu-options-space {
@@ -104,7 +110,8 @@ body {
 /* Catering Page Start*/
 .under-nav {
     background-color: #FFFFFF;
-    margin: 0 35px 86px 35px;
+    margin: 0 0px 0 140px;
+    width: 1640px;
 }
 
 .padding-text{
@@ -113,10 +120,24 @@ body {
 }
 
 .text-boxed{
+    font-size: 20px;
+    font-family: "Montauk Regular", "sans-serif";
     color: #5F002B;
-    margin: 0 35px;
+    line-height: 22px;
+    margin: 0px 0px 0px -90px;
+    background-color: #FFFFFF;
+    width: 950px;
+    height: 366px;
+    padding-left: 40px;
+    padding-right: 41px;
+    padding-bottom: 28px;
+    
 }
 
+.gap{
+    display: flex;
+    gap: 20px;
+}
 
 /* Catering Page End */
 
@@ -149,6 +170,8 @@ body {
     padding: 0px;
     margin: 0px;
 }
+
+
 
 /* Home - End */
 
