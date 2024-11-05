@@ -20,7 +20,7 @@
 
 /* Text Sizes Start */
 .text-50{
-    font-size: 50px;
+    font-size: 46px;
     color: #5F002B;
 }
 
@@ -79,7 +79,7 @@ body {
 }
 
 .menu-options-text{
-    font-size: 20px;
+    font-size: 12px;
     color: #5F002B;
 }
 
@@ -115,7 +115,7 @@ body {
     color: #5F002B;
     background-color: #FFFFFF;
     text-align: center;
-    font-size: 46xpx;
+    font-size: 43xpx;
     margin-bottom: 40px;
 }
 
@@ -159,7 +159,7 @@ body {
     }
     
     .menu-options-text {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -181,8 +181,10 @@ body {
 .no-decoration {
     text-decoration: none;
 }
+
+
 .sm-text{
-    font-size: 20px;
+    font-size: 16px;
     color: #5F002B;
     font-family: 'Fugaz One';
 }
