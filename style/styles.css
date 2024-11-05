@@ -175,7 +175,7 @@ body {
 }
 
 .padding-right {
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 
 .our-team-margin {
@@ -183,6 +183,10 @@ body {
     margin-right: 6rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.no-radius {
+    border-radius: 0%;
 }
 
 
