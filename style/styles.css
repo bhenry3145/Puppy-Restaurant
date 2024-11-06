@@ -170,6 +170,21 @@ body {
     gap: 20px;
 }
 
+/* Catering Tablet Page Start*/
+
+@media screen and (max-width: 800px){
+
+
+
+
+
+
+    
+
+}
+
+/* Catering Tablet Page End*/
+
 /* Catering Page End */
 
 
@@ -411,13 +426,13 @@ body {
 
 
 /* Responsive Design */
-@media (max-width: 992px) {
+@media (max-width: 750px) {
     .photo-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -431,7 +446,7 @@ body {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 750px) {
     .photo-grid {
         grid-template-columns: 1fr;
     }
