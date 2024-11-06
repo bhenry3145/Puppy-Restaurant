@@ -232,6 +232,7 @@ body {
     .padding-text{
         color: #5F002B;
         padding-left: 20px;
+        
     }
     
     .text-boxed{
@@ -247,15 +248,26 @@ body {
         padding-left: 40px;
         padding-right: 41px;
         padding-bottom: 28px;
-        margin-left: 100px;
+        margin-left: 240px;
+        
+    }
+
+    .photos-Heading {
+        font-family: 'Fugaz One';
+        color: #5F002B;
+        background-color: #FFFFFF;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 40px;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
         
     }
     
     .container2 {
-        max-width: 1680px;
-        margin:auto;
-        
+        max-width: 100%;
         font-size: 50px;
+        margin-left: 100px;
     }
     
     .gap{
@@ -274,13 +286,14 @@ body {
     .makeSmall{
         max-width: 420px;
         max-height: 250px;
-        margin-left: 100px;
+        
         
     }
 
     .makeSmall2{
         max-width: 530px;
         max-height: 250px;
+        margin-left: 200px;
         
         
     }
