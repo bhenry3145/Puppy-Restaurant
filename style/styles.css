@@ -180,14 +180,14 @@ body {
         font-family: "Montauk Regular", "sans-serif";
         color: #5F002B;
         line-height: 22px;
-        margin: 0px 0px 0px -90px;
+        margin: 0px 0px 0px 20px;
         background-color: #FFFFFF;
         width: 950px;
         height: 500px;
         padding-left: 40px;
         padding-right: 41px;
         padding-bottom: 28px;
-        margin-left: 20px;
+        
         
     }
     
@@ -204,21 +204,24 @@ body {
         align-items: center;
     }
 
-    .thisContainer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     .makeSmall{
         max-width: 760px;
         max-height: 300px;
-        margin-left: 20px;
+        
+        margin: 0px 0px 0px -199px;
         
     }
 
     .flex-even{
         flex-direction: column;
+    }
+
+    .makeSmall2{
+        max-width: 790px;
+        max-height: 300px;
+        margin-left: 0px;
+        
+        
     }
 
 }
@@ -227,7 +230,7 @@ body {
 
 /* Catering Phone Page Start */
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 320px){
 
     .padding-text{
         color: #5F002B;
@@ -236,7 +239,7 @@ body {
     }
     
     .text-boxed{
-        max-width: 420px;
+        max-width: 320px;
         font-size: 20px;
         font-family: "Montauk Regular", "sans-serif";
         color: #5F002B;
@@ -244,11 +247,11 @@ body {
         margin: 0px 0px 0px -90px;
         background-color: #FFFFFF;
         width: 950px;
-        height: 800px;
+        height: 1190px;
         padding-left: 40px;
         padding-right: 41px;
         padding-bottom: 28px;
-        margin-left: 240px;
+        margin-left: 0px;
         
     }
 
@@ -267,7 +270,7 @@ body {
     .container2 {
         max-width: 100%;
         font-size: 50px;
-        margin-left: 100px;
+        
     }
     
     .gap{
@@ -284,17 +287,15 @@ body {
     }
 
     .makeSmall{
-        max-width: 420px;
-        max-height: 250px;
-        
+        max-width: 320px;
+        max-height: 150px;
+        margin: 0rem 40rem 0rem 0rem;
         
     }
 
     .makeSmall2{
-        max-width: 530px;
-        max-height: 250px;
-        margin-left: 200px;
-        
+        max-width: 320px;
+        max-height: 150px;
         
     }
 
@@ -306,6 +307,12 @@ body {
         width: 300px;
         display: flex;
         justify-content: center;
+    }
+
+    .makeSmall3{
+        width: 320px;
+        height: 200px;
+        margin: 0px 200px 0px 0px;
     }
 
 }
