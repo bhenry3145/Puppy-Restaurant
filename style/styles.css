@@ -18,14 +18,14 @@
     src: url(/Fonts/Montauk-Regular.otf);
 }
 
-@font-face{
+@font-face {
     font-family: 'Fugaz One';
     src: url(/Fonts/FugazOne-Regular.ttf);
 }
-  
+
 
 /* Text Sizes Start */
-.text-50{
+.text-50 {
     font-size: 50px;
     color: #5F002B;
 }
@@ -37,15 +37,15 @@
     font-family: 'Montauk Bold', 'sans-serif';
 }
 
-.font-ital{
+.font-ital {
     font-family: "Montauk Italic", sans-serif;
 }
 
-.font-light{
+.font-light {
     font-family: "Montauk Light", sans-serif;
 }
 
-.font-reg{
+.font-reg {
     font-family: "Montauk Regular", sans-serif;
 }
 
@@ -53,11 +53,13 @@
     font-family: 'Fugaz One';
     color: #5F002B;
 }
+
 /* Fonts End */
 
 body {
     background-image: url(../assets/RestaurantMockupFiles/assets/bgtexture.jpg);
 }
+
 /* Home - Start */
 .navbar {
     margin: 1.5% 4.25% 0;
@@ -69,10 +71,10 @@ body {
     padding: 1rem 8rem 4rem 8rem;
 }
 
-.flex-even{
+.flex-even {
     display: flex;
     justify-content: space-evenly;
-    
+
 }
 
 .flex-between {
@@ -85,7 +87,7 @@ body {
     justify-content: space-evenly;
 }
 
-.flex-center{
+.flex-center {
     display: flex;
     justify-content: center;
 }
@@ -95,7 +97,7 @@ body {
     padding-top: 2rem;
 }
 
-.sm-text{
+.sm-text {
     font-size: 20px;
     color: #5F002B;
 }
@@ -130,15 +132,49 @@ body {
     text-decoration: none;
 }
 
+.home-hero-image {
+    height: 37.5rem;
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 992px) {
+
+    .home-hero-image {
+        height: 20rem;
+        margin-bottom: 0px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .home-hero-image {
+        height: 20rem;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .home-hero-image {
+        height: 20rem;
+        margin-bottom: 0px;
+    }
+}
+
+
+
+/* Home - End */
+
 /* Catering Page Start*/
 
 
-.padding-text{
+.padding-text {
     color: #5F002B;
     padding-left: 40px;
 }
 
-.text-boxed{
+.text-boxed {
     font-size: 20px;
     font-family: "Montauk Regular", "sans-serif";
     color: #5F002B;
@@ -150,7 +186,7 @@ body {
     padding-left: 40px;
     padding-right: 41px;
     padding-bottom: 28px;
-    
+
 }
 
 .container2 {
@@ -160,21 +196,21 @@ body {
     font-size: 50px;
 }
 
-.gap{
+.gap {
     display: flex;
     gap: 20px;
 }
 
 /* Catering Tablet Page Start*/
 
-@media screen and (max-width: 820px){
+@media screen and (max-width: 820px) {
 
-    .padding-text{
+    .padding-text {
         color: #5F002B;
         padding-left: 20px;
     }
-    
-    .text-boxed{
+
+    .text-boxed {
         max-width: 673px;
         font-size: 20px;
         font-family: "Montauk Regular", "sans-serif";
@@ -190,21 +226,21 @@ body {
         
         
     }
-    
+
     .container2 {
         max-width: 1680px;
-        margin:auto;
-        
+        margin: auto;
+
         font-size: 50px;
     }
-    
-    .gap{
+
+    .gap {
         display: flex;
         gap: 20px;
         align-items: center;
     }
 
-    .makeSmall{
+    .makeSmall {
         max-width: 760px;
         max-height: 300px;
         
@@ -212,7 +248,7 @@ body {
         
     }
 
-    .flex-even{
+    .flex-even {
         flex-direction: column;
     }
 
@@ -232,10 +268,10 @@ body {
 
 @media screen and (max-width: 320px){
 
-    .padding-text{
+    .padding-text {
         color: #5F002B;
         padding-left: 20px;
-        
+
     }
     
     .text-boxed{
@@ -264,23 +300,23 @@ body {
         margin-bottom: 40px;
         padding-bottom: 1rem;
         padding-top: 1rem;
-        
+
     }
-    
+
     .container2 {
         max-width: 100%;
         font-size: 50px;
         
     }
-    
-    .gap{
+
+    .gap {
         display: flex;
         gap: 20px;
-        
+
         margin-left: 110px;
     }
 
-    .thisContainer{
+    .thisContainer {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -299,11 +335,11 @@ body {
         
     }
 
-    .flex-even{
+    .flex-even {
         flex-direction: column;
     }
 
-    .cateringIcons{
+    .cateringIcons {
         width: 300px;
         display: flex;
         justify-content: center;
@@ -322,10 +358,7 @@ body {
 /* Catering Page End */
 
 
-.home-hero-image {
-    height: 37.5rem;
-    margin-bottom: 5rem;
-}
+
 
 .food-image {
     background-repeat: no-repeat;
@@ -352,8 +385,6 @@ body {
 }
 
 
-
-/* Home - End */
 
 /* Footer - Start */
 
@@ -405,7 +436,7 @@ body {
     .about-grid {
         grid-template-columns: 100%;
     }
-    
+
     .flex-between {
         flex-direction: column;
         align-items: center;
@@ -430,7 +461,7 @@ body {
         align-content: center;
         padding: 0;
     }
-    
+
     .home-padding {
         padding: 0;
         margin-top: 20px;
@@ -440,7 +471,7 @@ body {
         display: flex;
         align-content: center;
         padding: 1rem 0 1rem 0;
-        
+
     }
 }
 
@@ -448,7 +479,7 @@ body {
     .about-grid {
         grid-template-columns: 100%;
     }
-    
+
     .flex-between {
         flex-direction: column;
         align-items: center;
@@ -468,7 +499,7 @@ body {
         align-content: center;
         padding: 0;
     }
-    
+
     .home-padding {
         padding: 0;
         margin-top: 20px;
@@ -478,7 +509,7 @@ body {
         display: flex;
         align-content: center;
         padding: 1rem 0 1rem 0;
-        
+
     }
 }
 
@@ -486,14 +517,14 @@ body {
     .about-grid {
         grid-template-columns: 100%;
     }
-    
+
     .flex-between {
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
     }
-    
+
     .home-padding {
         padding: 0;
         margin-top: 20px;
@@ -515,7 +546,7 @@ body {
 
 
 .font-bold {
-    font-weight: bold;  
+    font-weight: bold;
 }
 
 /* Photos Section */
@@ -553,6 +584,7 @@ body {
     transition: transform 0.3s ease;
     border: #FFFFFF 6px solid;
 }
+
 /* on hover  */
 .photo-item img:hover {
     transform: scale(1.05);
@@ -570,11 +602,11 @@ body {
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .menu-options-space {
         margin: 0 10px;
     }
-    
+
     .menu-options-text {
         font-size: 14px;
     }
@@ -584,26 +616,28 @@ body {
     .photo-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .flex-between {
         flex-direction: column;
         text-align: center;
     }
-    
+
     .menu-padding {
         padding-right: 0;
         margin-top: 20px;
     }
 }
+
 .no-decoration {
     text-decoration: none;
 }
 
 
-.sm-text{ 
+.sm-text {
     font-size: 20px;
     color: #5F002B;
-   }
+}
+
 /* photos page end */
 
 /* footer start */
