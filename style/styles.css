@@ -620,15 +620,19 @@ body {
 }
 
 .photos-heading {
-    font-family: 'Fugaz One';
+    font-family: 'Fugaz One', cursive;
     color: #5F002B;
     background-color: #FFFFFF;
     text-align: center;
-    font-size: 43xpx;
+    font-size: 43px;
     margin-bottom: 40px;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding: 1rem 0;
+    max-width: 1300px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%; 
 }
+
 
 .photo-grid {
     display: grid;
