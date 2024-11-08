@@ -249,7 +249,7 @@ body {
 
 .container2 {
     max-width: 1680px;
-    margin: 0 auto;
+    margin:  auto;
     padding: 20px;
     font-size: 50px;
 }
@@ -630,6 +630,7 @@ body {
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
     margin-bottom: 40px;
+    padding: 4.2rem;
 
 }
 
