@@ -123,9 +123,67 @@ body {
     padding-left: 1rem;
 }
 
+
 .menu-3-padding {
     padding-left: 8rem;
     padding-right: 1rem;
+}
+
+@media (max-width: 992px) {
+
+    .menu-2-padding {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+
+    .menu-3-padding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+
+    .menu-2-padding {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+
+    .menu-3-padding {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .flex-even {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+
+    .menu-2-padding {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+
+    .menu-3-padding {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .flex-even {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }
 
 .no-decoration {
@@ -223,8 +281,8 @@ body {
         padding-left: 40px;
         padding-right: 41px;
         padding-bottom: 28px;
-        
-        
+
+
     }
 
     .container2 {
@@ -243,21 +301,21 @@ body {
     .makeSmall {
         max-width: 760px;
         max-height: 300px;
-        
+
         margin: 0px 0px 0px -199px;
-        
+
     }
 
     .flex-even {
         flex-direction: column;
     }
 
-    .makeSmall2{
+    .makeSmall2 {
         max-width: 790px;
         max-height: 300px;
         margin-left: 0px;
-        
-        
+
+
     }
 
 }
@@ -266,15 +324,15 @@ body {
 
 /* Catering Phone Page Start */
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
 
     .padding-text {
         color: #5F002B;
         padding-left: 20px;
 
     }
-    
-    .text-boxed{
+
+    .text-boxed {
         max-width: 320px;
         font-size: 20px;
         font-family: "Montauk Regular", "sans-serif";
@@ -288,7 +346,7 @@ body {
         padding-right: 41px;
         padding-bottom: 28px;
         margin-left: 0px;
-        
+
     }
 
     .photos-Heading {
@@ -306,7 +364,7 @@ body {
     .container2 {
         max-width: 100%;
         font-size: 50px;
-        
+
     }
 
     .gap {
@@ -322,17 +380,17 @@ body {
         align-items: center;
     }
 
-    .makeSmall{
+    .makeSmall {
         max-width: 320px;
         max-height: 150px;
         margin: 0rem 40rem 0rem 0rem;
-        
+
     }
 
-    .makeSmall2{
+    .makeSmall2 {
         max-width: 320px;
         max-height: 150px;
-        
+
     }
 
     .flex-even {
@@ -345,7 +403,7 @@ body {
         justify-content: center;
     }
 
-    .makeSmall3{
+    .makeSmall3 {
         width: 320px;
         height: 200px;
         margin: 0px 200px 0px 0px;
@@ -652,6 +710,61 @@ body {
 
 .footer-right-padding {
     padding-right: 8.6rem;
+}
+
+
+@media (max-width: 992px) {
+    .footer {
+        align-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-left-padding {
+        padding: 0;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .footer-right-padding {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        align-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-left-padding {
+        padding: 0;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .footer-right-padding {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        align-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-left-padding {
+        padding: 0;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .footer-right-padding {
+        padding: 0;
+        margin: 0;
+    }
 }
 
 /* footer end */
