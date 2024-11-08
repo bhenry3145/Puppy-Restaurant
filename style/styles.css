@@ -259,6 +259,11 @@ body {
     gap: 20px;
 }
 
+.makeSmall3 {
+    width: 536px;
+    height: 357.5px;
+}
+
 /* Catering Tablet Page Start*/
 
 @media screen and (max-width: 820px) {
